@@ -208,7 +208,7 @@
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.75\textwidth]{image028.png}
+\includegraphics[width=0.60\textwidth]{image028.png}
 \caption{Блок-схема алгоритма покадрового обнаружения объектов}%
 \label{fig:image028}
 \end{figure}
@@ -225,7 +225,6 @@
 
 Парсинг UFF файла осуществляется встроенными средствами TensorRT. При запуске парсера первым делом осуществляется проверка на совместимость версий TensorFlow и TensorRT. В случае если версия TensorFlow сильно опережает TensorRT — в исходном UFF файле могут попадаться функции активации или слои, которые не могут быть обработаны парсером. В таких случаях могут требоваться дополнительные изменения в структуре модели. Ниже представлена таблица совместимых версий TensorFlow и TensorRT:
 
-\iffalse
 \begin{table}[H]
 	\caption{Соответствие версий TensorFlow и TensorRT}
 	\begin{center}
@@ -240,7 +239,6 @@
 		\label{tabular:tab_examp}
 	\end{center}
 \end{table}
-\fi
 
 В случае если версии совместимы, то программа десериализует TensorFlow модель и начнет просчитывать наиболее оптимальный вариант конвертации в TensorRT. 
 
