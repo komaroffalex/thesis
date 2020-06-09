@@ -185,10 +185,10 @@
   pictures%
 }
 \newcommand\stats@table{%
-  \cyrt\cyra\cyrb\cyrl\cyri\cyrc\cyr\char251%
+  \cyrt\cyra\cyrb\cyrl\cyri\cyrc.%
 }
 \newcommand\stats@table@en{%
-  tables%
+  tables.%
 }
 \newcommand\stats@cite{%
   \cyri\cyrs\cyrt.%
@@ -216,9 +216,9 @@
 %  \IfEq{#4}{0}{}{%
 %  , #4~\stats@cite%
 %  }%
-  \IfEq{#4}{0}{}{%
-  , #4~\stats@appendix%
-  }%
+%  \IfEq{#4}{0}{}{%
+%  , #4~\stats@appendix%
+%  }%
 }
 \newcommand\@stats@en[4]{%
   \stats@report@en%
@@ -234,9 +234,9 @@
 %  \IfEq{#4}{0}{}{%
 %  , #4~\stats@cite@en%
 %  }%
-  \IfEq{#4}{0}{}{%
-  , #4~\stats@appendix@en%
-  }%
+%  \IfEq{#4}{0}{}{%
+%  , #4~\stats@appendix@en%
+%  }%
 }
 
 \newcommand\pagecount[1]{%
@@ -315,7 +315,7 @@
 }
 \newcommand\makeabstract{%
   \makeabstractru%
-
+  \clearpage%
   \makeabstracten%
 }
 

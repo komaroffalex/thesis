@@ -27,7 +27,9 @@
 \def\workname{\CYRR\cyra\cyrb\cyro\cyrt\cyra}
 \def\approved{\workname\ \cyrd\cyro\cyrp\cyru\cyrshch\cyre\cyrn\cyra\ %
 \cyrk\ \cyrz\cyra\cyrshch\cyri\cyrt\cyre}
-\def\appos{\cyr\cyrz\cyra\cyrv.\ \cyrk\cyra\cyrf\cyre\cyrd\cyrr\cyro\cyrishrt}
+%%ZAV KAFEDROI
+%%\def\appos{\cyr\cyrz\cyra\cyrv.\ \cyrk\cyra\cyrf\cyre\cyrd\cyrr\cyro\cyrishrt}
+\def\appos{\cyr\CYRR\cyru\cyrk\cyro\cyrv\cyro\cyrd\cyri\cyrt\cyre\cyrl\cyrsftsn\ \CYRO\CYRP}
 \def\groupname{\cyr\cyrg\cyrr.}
 \def\topicname{}
 \def\topiclabel{}
