@@ -17,7 +17,7 @@
 
 \RequirePackage{kvoptions}
 \RequirePackage{geometry}
-\RequirePackage{nomencl}
+\RequirePackage[intoc]{nomencl}
 \RequirePackage{indentfirst}
 \RequirePackage{xstring}
 \RequirePackage{float}
@@ -268,7 +268,7 @@
 
 \newcommand\@makeabstract[4]{%
   %\clearpage%
-  %\thispagestyle{empty}%
+  \thispagestyle{empty}%
   %
   \@makeschapterhead{#1}%
   \@afterheading%

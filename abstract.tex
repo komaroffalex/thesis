@@ -7,8 +7,7 @@
   ПОКАДРОВАЯ ОБРАБОТКА, 
   ОБНАРУЖЕНИЕ ОБЪЕКТОВ, 
   ОБНАРУЖЕНИЕ ТРАНСПОРТНЫХ СРЕДСТВ, 
-  ДЕТЕКТОР, 
-  ОБРАБОТКА В РЕЖИМЕ РЕАЛЬНОГО ВРЕМЕНИ
+  ДЕТЕКТОР
 }
 
 \abstractcontent{
@@ -22,23 +21,16 @@
 
 %
 \begin{itemize*}
-  \item Изучение особенностей использования различных подходов к обнаружению транспортных средств;
-  \item Выявление наиболее эффективного подхода к решению задачи обнаружения в режиме реального времени;
+  \item Изучение особенностей использования различных подходов к обнаружению транспортных средств;  
   \item Разработка системы обнаружения транспортных средств на основе Jetson Nano;
   \item Исследование производительности реализованной системы.
 \end{itemize*}
 %
 
-В результате разработки была использована модель глубокого обучения по архитектуре SSD. Производилось дообучение модели на различных обучающих выборках. Использованные наборы изображений: собственный и ImageNet.
+В результате разработки была использована модель глубокого обучения по архитектуре SSD. Производилось дообучение модели на различных обучающих выборках. 
 Измерены основные показатели точности системы для каждой обучающей выборки и при различных конфигурациях системы. 
 Эффективность системы определяется точностью и скоростью её работы. Данное программное решение может применяться для реализации встраиваемых систем видеоаналитики транспортной ситуации на дорогах.
 }
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\newpage 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \keywordsen{
 KEYWORDS: 
@@ -48,8 +40,7 @@ EMBEDDED SYSTEMS,
 PER-FRAME PROCESSING, 
 OBJECT DETECTION, 
 VEHICLE DETECTION, 
-DETECTOR, 
-REAL-TIME PROCESSING
+DETECTOR
 }
 
 \abstractcontenten{
@@ -63,14 +54,13 @@ In the course of this work, the following tasks were solved:
 
 %
 \begin{itemize*}
-  \item Studying the features of using various approaches to detecting vehicles;
-  \item Identification of the most effective approach to solving the problem of detection in real time;
+  \item Studying the features of using various approaches to detecting vehicles;  
   \item Development of a vehicle detection system based on Jetson Nano;
   \item Performance study of the implemented system.
 \end{itemize*}
 %
 
-As a result, the SSD deep learning model was used. The transfer learning was made using different training subsets. Subsets contain original images as well as images from ImageNet dataset.
+As a result, the SSD deep learning model was used. The transfer learning was made using different training subsets. 
 The main indicators of system accuracy were measured for each training subset and for various system configurations.
 The effectiveness of the system is determined by the accuracy and speed of its operation. This software solution can be used to implement embedded video analytics systems to monitor road traffic situation.
 }
